@@ -29,3 +29,50 @@ A full-featured social media web application built with Django, enabling users t
    ```bash
    git clone https://github.com/yourusername/social-media-app.git
    cd social-media-app
+
+Create a virtual environment and activate it
+
+bash
+Copy
+Edit
+python3 -m venv venv
+source venv/bin/activate   # On Windows use: venv\Scripts\activate
+Install dependencies
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Configure environment variables
+
+Create a .env file (or set environment variables) for sensitive info like:
+
+ini
+Copy
+Edit
+SECRET_KEY=your_django_secret_key
+DEBUG=True
+DATABASE_URL=your_database_url
+Apply migrations
+
+bash
+Copy
+Edit
+python manage.py migrate
+Create a superuser (optional)
+
+bash
+Copy
+Edit
+python manage.py createsuperuser
+Run the development server
+
+bash
+Copy
+Edit
+python manage.py runserver
+Open your browser
+
+Visit http://127.0.0.1:8000 to see the app in action.
+
+
