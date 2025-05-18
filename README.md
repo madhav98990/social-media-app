@@ -30,7 +30,7 @@ A full-featured social media web application built with Django, enabling users t
    git clone https://github.com/yourusername/social-media-app.git
    cd social-media-app
 
-Create a virtual environment and activate it
+2. **Create a virtual environment and activate it**
 
 bash
 Copy
