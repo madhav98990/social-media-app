@@ -37,7 +37,8 @@ Copy
 Edit
 python3 -m venv venv
 source venv/bin/activate   # On Windows use: venv\Scripts\activate
-Install dependencies
+
+3. **Install dependencies**
 
 bash
 Copy
@@ -45,7 +46,7 @@ Edit
 pip install -r requirements.txt
 Configure environment variables
 
-Create a .env file (or set environment variables) for sensitive info like:
+4. **Create a .env file  for sensitive info like:**
 
 ini
 Copy
@@ -53,25 +54,29 @@ Edit
 SECRET_KEY=your_django_secret_key
 DEBUG=True
 DATABASE_URL=your_database_url
-Apply migrations
+
+5. **Apply migrations**
 
 bash
 Copy
 Edit
 python manage.py migrate
-Create a superuser (optional)
+
+6. **Create a superuser (optional)**
 
 bash
 Copy
 Edit
 python manage.py createsuperuser
-Run the development server
+
+7 **Run the development server**
 
 bash
 Copy
 Edit
 python manage.py runserver
-Open your browser
+
+8 **Open your browser**
 
 Visit http://127.0.0.1:8000 to see the app in action.
 
